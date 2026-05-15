@@ -20,22 +20,6 @@ An AI-powered full-stack web application that automatically analyzes uploaded da
 | Visualization | matplotlib, seaborn |
 | Database | SQLite |
 
-## ⚙️ Setup Instructions
-
-### Backend
-```bash
-conda create -n ai-ds-assistant python=3.11
-conda activate ai-ds-assistant
-pip install -r requirements.txt
-python manage.py runserver
-```
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm start
-```
 
 ## 📊 How It Works
 1. User uploads a CSV file
