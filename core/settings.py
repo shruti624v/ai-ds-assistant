@@ -126,3 +126,10 @@ STATIC_URL = "static/"
 
 # Allow React frontend to talk to Django
 CORS_ALLOW_ALL_ORIGINS = True
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Media files (uploaded CSVs)
+import os
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
